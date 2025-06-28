@@ -1,0 +1,63 @@
+# Go binaries and build output
+**/main
+**/*.exe
+**/*.test
+**/*.out
+
+# Go module files you may want to ignore locally (optional)
+**/vendor/
+**/go.sum
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files and temp artifacts
+*.log
+*.pid
+*.tmp
+*.bak
+
+# Docker artifacts
+*.tar
+*.img
+*.container
+.docker/
+
+# Docker Compose override (if used)
+docker-compose.override.yml
+
+# Kubernetes artifacts
+*.yaml~
+*.yaml.tmp
+*.kubeconfig
+k8s/.env
+
+# Environment files
+.env
+.env.*
+
+# Load testing temp files
+load-test/*.log
+load-test/*.tmp
+load-test/results/
+load-test/report/
+
+# Coverage/testing files
+*.cover
+*.coverprofile
+coverage.*
+
+# Node_modules (if any JS is used later)
+**/node_modules/
+
+minikube-linux-amd64
+
+# Ignore local scripts or test binaries (if added)
+*.sh~
