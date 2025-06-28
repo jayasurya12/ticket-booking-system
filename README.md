@@ -124,7 +124,3 @@ Helm Charts
 Made with ❤️ by Surya
 
 yaml
-
----
-
-Would you like me to generate this README as a downloadable file, or bundle it into a GitHub-ready [starter repo structure](f)?
